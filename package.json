@@ -1,11 +1,11 @@
 {
   "name": "blog_nodejs",
-  "version": "3.3.3",
-  "description": "RESTful API service for Surmon.me blog",
+  "version": "1.0.3",
+  "description": "RESTful API service for yijie's blog",
   "author": {
-    "name": "Surmon",
-    "email": "surmon@foxmail.com",
-    "url": "https://surmon.me"
+    "name": "Yijie",
+    "email": "yijie8@gmail.com",
+    "url": "https://"
   },
   "private": false,
   "license": "MIT",
