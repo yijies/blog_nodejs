@@ -2,7 +2,7 @@
  * Validation error.
  * @file 400 错误生成器
  * @module error/validation
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import * as TEXT from '@app/constants/text.constant';

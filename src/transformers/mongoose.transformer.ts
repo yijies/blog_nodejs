@@ -2,7 +2,7 @@
  * Mongoose transform.
  * @file Mongoose 模块转换器
  * @module transformer/mongoose
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import _mongoose from 'mongoose';

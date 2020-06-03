@@ -2,7 +2,7 @@
  * App entry.
  * @file Index 入口文件
  * @module app/main
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import helmet from 'helmet';

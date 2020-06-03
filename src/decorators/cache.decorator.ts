@@ -2,7 +2,7 @@
  * Cache decorator.
  * @file 缓存装饰器
  * @module decorator/cache
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import  lodash from 'lodash';

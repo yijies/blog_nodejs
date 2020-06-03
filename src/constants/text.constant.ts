@@ -3,7 +3,7 @@
  * @file 文案常量
  * @description 用于全局路由请求的响应文案
  * @module constant/text
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 export const HTTP_ERROR_SUFFIX = '失败';

@@ -5653,9 +5653,9 @@ mongoose-legacy-pluralize@1.0.2:
   resolved "https://registry.npm.taobao.org/mongoose-legacy-pluralize/download/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
   integrity sha1-O6n5H6UHtRhtOZ+0CFS/8Y+1Y+Q=
 
-"mongoose-paginate@https://github.com/surmon-china/mongoose-paginate":
+"mongoose-paginate@https://github.com/yijies/mongoose-paginate":
   version "5.0.4"
-  resolved "https://github.com/surmon-china/mongoose-paginate#7e5cff01d4c2842a4703471356c46bd119d9a9ae"
+  resolved "https://github.com/yijies/mongoose-paginate#7e5cff01d4c2842a4703471356c46bd119d9a9ae"
 
 mongoose@^5.9.1:
   version "5.9.6"

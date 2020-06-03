@@ -2,7 +2,7 @@
  * Announcement module.
  * @file 公告模块
  * @module module/announcement/module
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { Module } from '@nestjs/common';

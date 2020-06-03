@@ -2,7 +2,7 @@
  * HumanizedJwtAuth guard.
  * @file 智能鉴权卫士
  * @module guard/humanized-auth
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { AuthGuard } from '@nestjs/passport';

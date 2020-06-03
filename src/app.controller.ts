@@ -2,7 +2,7 @@
  * App controller.
  * @file 主页控制器
  * @module app/controller
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { Get, Controller } from '@nestjs/common';

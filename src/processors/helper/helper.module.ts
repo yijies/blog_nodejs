@@ -2,7 +2,7 @@
  * Helper module.
  * @file Helper 全局模块
  * @module processor/helper/module
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { Module, Global, HttpModule } from '@nestjs/common';

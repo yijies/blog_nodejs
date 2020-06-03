@@ -2,7 +2,7 @@
  * Category controller.
  * @file 分类模块控制器
  * @module module/category/controller
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { PaginateResult } from 'mongoose';

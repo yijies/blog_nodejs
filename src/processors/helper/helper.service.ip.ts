@@ -2,7 +2,7 @@
  * Helper Ip service.
  * @file Helper Ip 模块服务
  * @module module/helper/ip.service
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 // 内存占用太大（~100+M）暂时移除了

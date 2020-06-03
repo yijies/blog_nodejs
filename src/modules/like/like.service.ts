@@ -2,7 +2,7 @@
  * Like service.
  * @file 点赞模块数据服务
  * @module module/like/service
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { DocumentType } from '@typegoose/typegoose';

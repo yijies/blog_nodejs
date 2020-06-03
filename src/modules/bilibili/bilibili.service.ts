@@ -2,7 +2,7 @@
  * Bilibili service.
  * @file Bilibili 模块服务
  * @module module/bilibili/service
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import lodash from 'lodash';

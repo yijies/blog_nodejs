@@ -2,7 +2,7 @@
  * Tag module.
  * @file 标签模块
  * @module module/tag/module
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { Module } from '@nestjs/common';

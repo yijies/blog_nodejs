@@ -2,7 +2,7 @@
  * Helper Akismet service.
  * @file Helper Akismet 评论反垃圾服务
  * @module processor/helper/akismet.service
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import akismet from 'akismet-api';

@@ -2,7 +2,7 @@
  * App module.
  * @file App 主模块
  * @module app/module
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { APP_INTERCEPTOR } from '@nestjs/core';

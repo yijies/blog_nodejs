@@ -2,7 +2,7 @@
  * Category module.
  * @file 分类模块
  * @module module/category/module
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { Module } from '@nestjs/common';

@@ -2,7 +2,7 @@
  * Like module.
  * @file 点赞模块
  * @module module/like/module
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { Module } from '@nestjs/common';

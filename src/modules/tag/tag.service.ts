@@ -2,7 +2,7 @@
  * Tag service.
  * @file 标签模块数据服务
  * @module module/tag/service
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import * as CACHE_KEY from '@app/constants/cache.constant';

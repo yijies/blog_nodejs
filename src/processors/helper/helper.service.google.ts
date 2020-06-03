@@ -2,7 +2,7 @@
  * Helper Google service.
  * @file Google 证书服务，为全站所有谷歌服务提供证书
  * @module module/helper/google.service
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { google } from 'googleapis';

@@ -2,7 +2,7 @@
  * Expansion DB backup service.
  * @file 数据库备份服务
  * @module module/expansion/dbbackup.service
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import fs from 'fs';

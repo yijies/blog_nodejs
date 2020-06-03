@@ -2,7 +2,7 @@
  * HttpCache interceptor.
  * @file 缓存拦截器
  * @module interceptor/cache
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { tap } from 'rxjs/operators';

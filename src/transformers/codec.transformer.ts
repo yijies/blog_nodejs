@@ -3,7 +3,7 @@
  * @file 编解码转换器
  * @description 编解码各种特定格式数据
  * @module transformer/codec
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { Base64 } from 'js-base64';

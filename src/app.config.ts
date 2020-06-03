@@ -2,7 +2,7 @@
  * App config.
  * @file 应用运行配置
  * @module app/config
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import path from 'path';
@@ -20,8 +20,8 @@ export const APP = {
 };
 
 export const CROSS_DOMAIN = {
-  allowedOrigins: ['https://surmon.me', 'https://cdn.surmon.me', 'https://admin.surmon.me'],
-  allowedReferer: 'surmon.me',
+  allowedOrigins: ['*'],
+  allowedReferer: '',
 };
 
 export const MONGODB = {

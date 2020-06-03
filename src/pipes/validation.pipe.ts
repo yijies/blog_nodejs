@@ -2,7 +2,7 @@
  * Validation pipe.
  * @file 数据表验证器
  * @module pipe/validation
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { validate } from 'class-validator';

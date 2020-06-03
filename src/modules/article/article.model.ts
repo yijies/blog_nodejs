@@ -2,7 +2,7 @@
  * Article model.
  * @file 文章模块数据模型
  * @module module/article/model
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { Types } from 'mongoose';

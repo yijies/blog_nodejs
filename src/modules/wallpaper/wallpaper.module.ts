@@ -2,7 +2,7 @@
  * Wallpaper module.
  * @file Wallpaper 模块
  * @module module/wallpaper/module
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { Module } from '@nestjs/common';

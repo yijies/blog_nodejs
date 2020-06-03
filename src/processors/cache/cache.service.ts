@@ -2,7 +2,7 @@
  * Cache service.
  * @file Cache 缓存模块服务
  * @module processor/cache/service
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import schedule from 'node-schedule';

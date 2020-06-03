@@ -2,7 +2,7 @@
  * Comment module.
  * @file 评论模块
  * @module module/comment/module
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { Module } from '@nestjs/common';

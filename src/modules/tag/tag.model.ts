@@ -2,7 +2,7 @@
  * Tag model.
  * @file 标签模块数据模型
  * @module module/tag/model
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { Types } from 'mongoose';

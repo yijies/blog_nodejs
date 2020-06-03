@@ -2,7 +2,7 @@
  * Syndication module.
  * @file Syndication 模块
  * @module module/syndication/module
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { Module } from '@nestjs/common';

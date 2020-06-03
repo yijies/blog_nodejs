@@ -2,7 +2,7 @@
  * Tag controller.
  * @file 标签模块控制器
  * @module module/tag/controller
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import lodash from 'lodash';

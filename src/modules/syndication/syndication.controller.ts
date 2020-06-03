@@ -2,7 +2,7 @@
  * Syndication controller.
  * @file Syndication 模块控制器
  * @module module/syndication/controller
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { UseGuards, Response, Controller, Get, Patch } from '@nestjs/common';

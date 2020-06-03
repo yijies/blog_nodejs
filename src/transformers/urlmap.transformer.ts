@@ -2,7 +2,7 @@
  * @file 链接构造器
  * @description 构造各种链接
  * @module transformer/link
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import * as APP_CONFIG from '@app/app.config';

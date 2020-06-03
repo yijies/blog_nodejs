@@ -2,7 +2,7 @@
  * Syndication service.
  * @file Syndication 模块服务
  * @module module/syndication/service
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import fs from 'fs';

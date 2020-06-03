@@ -2,7 +2,7 @@
  * Wallpaper controller.
  * @file Wallpaper 模块控制器
  * @module module/wallpaper/controller
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { Controller, Get } from '@nestjs/common';

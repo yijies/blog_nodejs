@@ -2,7 +2,7 @@
  * HTTP interface.
  * @file HTTP 响应接口模型
  * @module interface/http
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 // 响应状态

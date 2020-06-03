@@ -2,7 +2,7 @@
  * Custom error.
  * @file 错误定制器
  * @module error/custom
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { HttpException, HttpStatus } from '@nestjs/common';

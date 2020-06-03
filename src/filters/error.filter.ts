@@ -2,7 +2,7 @@
  * HttpException filter.
  * @file 全局异常拦截器
  * @module filter/error
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import lodash from 'lodash';

@@ -2,7 +2,7 @@
  * Expansion Giithub service.
  * @file 扩展模块 Giithub 服务
  * @module module/expansion/github.service
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { Injectable, HttpService } from '@nestjs/common';

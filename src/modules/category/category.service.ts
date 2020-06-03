@@ -2,7 +2,7 @@
  * Category service.
  * @file 分类模块数据服务
  * @module module/category/service
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { PaginateResult, Types } from 'mongoose';

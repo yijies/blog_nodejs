@@ -2,7 +2,7 @@
  * Helper Email service.
  * @file Helper Email 邮件服务
  * @module processor/helper/email.service
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import nodemailer from 'nodemailer';

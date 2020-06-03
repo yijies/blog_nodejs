@@ -2,7 +2,7 @@
  * Like controller.
  * @file 点赞模块控制器
  * @module module/like/controller
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { prop } from '@typegoose/typegoose';

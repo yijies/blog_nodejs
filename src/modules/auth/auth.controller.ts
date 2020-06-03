@@ -2,7 +2,7 @@
  * Auth controller.
  * @file 权限模块控制器
  * @module module/auth/controller
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { Controller, Get, Put, Post, Body, UseGuards, HttpStatus } from '@nestjs/common';

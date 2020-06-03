@@ -2,7 +2,7 @@
  * Cache config service.
  * @file Cache 配置器
  * @module processor/cache/config.service
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import lodash from 'lodash';

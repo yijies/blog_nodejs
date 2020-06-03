@@ -2,7 +2,7 @@
  * Helper Seo service.
  * @file Helper Seo 模块服务
  * @module module/helper/seo.service
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import * as APP_CONFIG from '@app/app.config';

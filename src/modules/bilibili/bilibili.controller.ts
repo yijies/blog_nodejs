@@ -2,7 +2,7 @@
  * Bilibili controller.
  * @file Bilibili 模块控制器
  * @module module/bilibili/controller
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { UseGuards, Controller, Get, Patch } from '@nestjs/common';

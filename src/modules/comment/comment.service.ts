@@ -2,7 +2,7 @@
  * Comment service.
  * @file 评论模块数据服务
  * @module module/comment/service
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import lodash from 'lodash';

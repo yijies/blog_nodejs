@@ -2,7 +2,7 @@
  * JwtAuth guard.
  * @file 鉴权卫士
  * @module guard/auth
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import { AuthGuard } from '@nestjs/passport';

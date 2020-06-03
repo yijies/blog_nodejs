@@ -2,7 +2,7 @@
  * Auth module.
  * @file 权限与管理员模块
  * @module module/auth/module
- * @author Surmon <https://github.com/surmon-china>
+ * @author Surmon <https://github.com/yijies>
  */
 
 import jwt from 'jsonwebtoken';
