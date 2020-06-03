@@ -2,7 +2,7 @@
  * Music service.
  * @file Music 模块服务
  * @module module/music/service
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import lodash from 'lodash';

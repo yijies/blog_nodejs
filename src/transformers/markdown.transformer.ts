@@ -3,7 +3,7 @@
  * @file Markdown 转换器
  * @description Markdown 相关处理器
  * @module transformer/markdown
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import marked from 'marked';

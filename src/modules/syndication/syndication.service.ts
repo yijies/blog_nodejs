@@ -2,7 +2,7 @@
  * Syndication service.
  * @file Syndication 模块服务
  * @module module/syndication/service
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import fs from 'fs';
@@ -172,6 +172,7 @@ export class SyndicationService {
 
   // 更新地图缓存（内部首次实例化，外部主动调用）每次缓存被更新时，都重新写入文件
   public updateCache() {
+    return;
     return Promise.all([
       this.sitemapCache.update().then(xml => {
         fs.writeFileSync(this.getXmlFilePath('sitemap'), xml)

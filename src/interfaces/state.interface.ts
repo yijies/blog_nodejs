@@ -2,7 +2,7 @@
  * Bussniss constants.
  * @file 业务数据表常量接口
  * @module interface/state
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 // 发布状态

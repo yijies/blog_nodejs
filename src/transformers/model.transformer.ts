@@ -4,7 +4,7 @@
  * @description 用于将一个基本的 Typegoose 模型转换为 Model 和 Provider，及模型注入器
  * @description Fork from: https://github.com/kpfromer/nestjs-typegoose/blob/master/src/typegoose.providers.ts
  * @module transformer/model
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { Connection } from 'mongoose';

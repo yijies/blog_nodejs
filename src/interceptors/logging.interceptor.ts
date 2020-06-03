@@ -2,7 +2,7 @@
  * Logging interceptor.
  * @file 日志拦截器
  * @module interceptor/logging
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { Observable } from 'rxjs';

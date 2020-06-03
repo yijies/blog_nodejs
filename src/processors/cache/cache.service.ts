@@ -2,7 +2,7 @@
  * Cache service.
  * @file Cache 缓存模块服务
  * @module processor/cache/service
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import schedule from 'node-schedule';
@@ -181,7 +181,7 @@ export class CacheService {
             console.warn(`Redis 超时任务执行失败，${time / 1000}s 后重试：${error}`);
           });
       };
-      doPromise();
+      // doPromise();
     }
 
     // 定时任务

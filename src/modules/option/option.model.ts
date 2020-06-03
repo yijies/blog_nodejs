@@ -2,7 +2,7 @@
  * Option model.
  * @file 设置模块数据模型
  * @module module/option/model
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { prop, arrayProp, pre, defaultClasses } from '@typegoose/typegoose';

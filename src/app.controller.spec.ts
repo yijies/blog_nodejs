@@ -2,7 +2,7 @@
  * App controller spec.
  * @file 主页控制器单测用例
  * @module app/controller.spec
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { Test, TestingModule } from '@nestjs/testing';

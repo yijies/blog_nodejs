@@ -2,7 +2,7 @@
  * HttpUnauthorized error.
  * @file 401 错误生成器
  * @module error/unauthorized
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import * as TEXT from '../constants/text.constant';

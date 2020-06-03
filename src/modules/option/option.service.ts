@@ -2,7 +2,7 @@
  * Option service.
  * @file 设置模块数据服务
  * @module module/option/service
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { Injectable } from '@nestjs/common';

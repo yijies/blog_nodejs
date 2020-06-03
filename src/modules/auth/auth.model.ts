@@ -2,7 +2,7 @@
  * Auth model.
  * @file 权限和用户数据模型
  * @module module/auth/model
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { prop } from '@typegoose/typegoose';

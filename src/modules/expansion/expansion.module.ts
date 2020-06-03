@@ -2,7 +2,7 @@
  * Expansion module.
  * @file Expansion 模块
  * @module module/expansion/module
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { Module, HttpModule } from '@nestjs/common';

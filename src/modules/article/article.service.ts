@@ -2,7 +2,7 @@
  * Article service.
  * @file 文章模块数据服务
  * @module module/article/service
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import lodash from 'lodash';

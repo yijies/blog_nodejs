@@ -2,7 +2,7 @@
  * Database providers.
  * @file Database 模块构造器
  * @module processor/database/providers
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import * as APP_CONFIG from '../../app.config';

@@ -2,7 +2,7 @@
  * HttpBadRequest error.
  * @file 400 错误生成器
  * @module error/bad-request
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import * as TEXT from '../constants/text.constant';

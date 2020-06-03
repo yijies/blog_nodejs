@@ -2,7 +2,7 @@
  * Origin middleware.
  * @file Origin 中间件
  * @module middleware/origin
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { Request, Response } from 'express';

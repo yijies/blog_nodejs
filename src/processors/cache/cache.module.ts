@@ -2,7 +2,7 @@
  * Cache module.
  * @file Cache 全局模块
  * @module processor/cache/module
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { CacheModule as NestCacheModule, Global, Module } from '@nestjs/common';

@@ -2,7 +2,7 @@
  * Music controller.
  * @file Music 模块控制器
  * @module module/music/controller
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { UseGuards, Controller, Get, Patch, Param } from '@nestjs/common';

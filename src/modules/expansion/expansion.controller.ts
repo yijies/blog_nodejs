@@ -3,7 +3,7 @@
  * @file 扩展模块控制器
  * @description 分发 -> 统计/常量/七牛/github/数据库备份
  * @module module/expansion/controller
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { Credentials } from 'google-auth-library';

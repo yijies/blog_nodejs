@@ -2,7 +2,7 @@
  * Wallpaper service.
  * @file Wallpaper 模块服务
  * @module module/wallpaper/service
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import WonderfulBingWallpaper, { WonderfulBingWallpaperOption } from 'wonderful-bing-wallpaper';

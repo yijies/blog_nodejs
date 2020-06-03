@@ -2,7 +2,7 @@
  * Comment service.
  * @file 评论模块数据服务
  * @module module/comment/service
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import lodash from 'lodash';
@@ -142,7 +142,7 @@ export class CommentService {
 
         // akismet 处理
         comments.forEach(comment => {
-          this.submitCommentAkismet(action, comment, null, referrer);
+          // this.submitCommentAkismet(action, comment, null, referrer);
         });
 
         // 更新黑名单

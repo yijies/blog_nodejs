@@ -2,7 +2,7 @@
  * Auth service.
  * @file 权限与管理员模块服务
  * @module module/auth/service
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import lodash from 'lodash';

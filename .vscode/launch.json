@@ -13,7 +13,6 @@
       "sourceMaps": true,
       "cwd": "${workspaceRoot}",
       "protocol": "inspector",
-      "preLaunchTask": "tsc: 监视 - tsconfig.json",
       "console": "integratedTerminal"
   }
   ]

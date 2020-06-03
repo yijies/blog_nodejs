@@ -2,7 +2,7 @@
  * Comment model.
  * @file 评论模块数据模型
  * @module module/comment/model
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { Types } from 'mongoose';

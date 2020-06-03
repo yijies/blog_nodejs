@@ -2,7 +2,7 @@
  * Helper Akismet service.
  * @file Helper Akismet 评论反垃圾服务
  * @module processor/helper/akismet.service
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import akismet from 'akismet-api';
@@ -52,6 +52,7 @@ export class AkismetService {
 
   // 初始化验证
   private initVerify(): void {
+    return;
     this.client.verifyKey()
       .then(valid => valid
         ? Promise.resolve(valid)

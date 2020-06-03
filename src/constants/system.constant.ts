@@ -3,7 +3,7 @@
  * @file 系统常量
  * @description 用于全局公用的系统常量
  * @module constant/system
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 // nestjs

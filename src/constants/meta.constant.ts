@@ -3,7 +3,7 @@
  * @file 元数据常量键
  * @description 用于全局装饰器元信息的常量键
  * @module constant/meta
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import * as constants from '@nestjs/common/constants';

@@ -2,7 +2,7 @@
  * Announcement model.
  * @file 公告模块数据模型
  * @module module/announcement/model
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { Types } from 'mongoose';

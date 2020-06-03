@@ -2,7 +2,7 @@
  * Music module.
  * @file Music 模块
  * @module module/music/module
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { Module } from '@nestjs/common';

@@ -2,7 +2,7 @@
  * Option controller.
  * @file 设置模块控制器
  * @module module/option/controller
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { Controller, Get, Put, Body, UseGuards } from '@nestjs/common';

@@ -2,7 +2,7 @@
  * QueryParams decorator.
  * @file 请求参数解析装饰器
  * @module decorator/query-params
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import lodash from 'lodash';

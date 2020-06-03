@@ -2,7 +2,7 @@
  * Transform interceptor.
  * @file 请求流拦截器
  * @module interceptor/transform
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { Observable } from 'rxjs';

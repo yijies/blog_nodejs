@@ -2,7 +2,7 @@
  * HttpForbidden error.
  * @file 403 错误生成器
  * @module error/forbidden
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import * as TEXT from '../constants/text.constant';

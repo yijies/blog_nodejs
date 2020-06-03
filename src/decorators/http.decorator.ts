@@ -2,7 +2,7 @@
  * Http decorator.
  * @file 响应解析装饰器
  * @module decorator/http
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import lodash from 'lodash';

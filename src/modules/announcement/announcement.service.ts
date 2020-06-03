@@ -2,7 +2,7 @@
  * Announcement service.
  * @file 公告模块数据服务
  * @module module/announcement/service
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { PaginateResult, Types } from 'mongoose';

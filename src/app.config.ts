@@ -2,7 +2,7 @@
  * App config.
  * @file 应用运行配置
  * @module app/config
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import path from 'path';
@@ -32,7 +32,7 @@ export const MONGODB = {
 
 export const REDIS = {
   host: argv.redis_host || 'localhost',
-  port: argv.redis_port || 6379,
+  port: argv.redis_port || 16379,
   ttl: null,
   defaultCacheTTL: 60 * 60 * 24,
 };
@@ -57,7 +57,7 @@ export const AKISMET = {
 };
 
 export const GITHUB = {
-  username: 'surmon-china',
+  username: 'yijies',
 };
 
 export const ALIYUN = {

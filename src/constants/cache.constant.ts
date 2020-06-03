@@ -3,7 +3,7 @@
  * @file 缓存常量键
  * @description 用于全局缓存的常量键
  * @module constant/cache
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 export const CACHE_PERFIX = '__nodepress_cache_';

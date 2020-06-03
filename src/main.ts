@@ -2,7 +2,7 @@
  * App entry.
  * @file Index 入口文件
  * @module app/main
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import helmet from 'helmet';
@@ -21,7 +21,7 @@ import { environment, isProdMode, isDevMode } from './app.environment';
 import * as APP_CONFIG from './app.config';
 
 // 解决 Nodejs 环境中请求 HTTPS 的证书授信问题
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+// process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
 
 // 替换 console 为更统一友好的

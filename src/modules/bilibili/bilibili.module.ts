@@ -2,7 +2,7 @@
  * Bilibili module.
  * @file Bilibili 模块
  * @module module/bilibili/module
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { Module, HttpModule } from '@nestjs/common';

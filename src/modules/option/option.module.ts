@@ -2,7 +2,7 @@
  * Option module.
  * @file 设置模块
  * @module module/option/module
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { Module } from '@nestjs/common';

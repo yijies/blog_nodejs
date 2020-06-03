@@ -2,7 +2,7 @@
  * Cors middleware.
  * @file CORS 中间件
  * @module middleware/cors
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { Request, Response } from 'express';

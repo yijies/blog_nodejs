@@ -2,7 +2,7 @@
  * Category model.
  * @file 分类模块数据模型
  * @module module/category/model
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { Types } from 'mongoose';

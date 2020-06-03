@@ -2,7 +2,7 @@
  * Expansion Statistic service.
  * @file 扩展模块 Statistic 服务
  * @module module/expansion/statistic.service
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import schedule from 'node-schedule';

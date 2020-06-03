@@ -2,7 +2,7 @@
  * Extend model.
  * @file 通用扩展字段数据模型
  * @module model/extend
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import { prop } from '@typegoose/typegoose';

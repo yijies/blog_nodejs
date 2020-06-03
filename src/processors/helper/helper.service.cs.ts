@@ -2,7 +2,7 @@
  * Expansion cloud storage service.
  * @file 扩展模块 cloud storage 服务
  * @module module/expansion/cs.service
- * @author Surmon <https://github.com/yijies>
+ * @author Yijie <https://github.com/yijies>
  */
 
 import OSS from 'ali-oss';
