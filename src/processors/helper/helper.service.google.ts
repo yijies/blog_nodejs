@@ -17,7 +17,7 @@ export class GoogleService {
   private jwtClient: JWT = null;
 
   constructor() {
-    this.initClient();
+    // this.initClient();
   }
 
   private initClient() {

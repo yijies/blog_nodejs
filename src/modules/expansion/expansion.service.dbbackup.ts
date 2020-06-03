@@ -26,12 +26,12 @@ const BACKUP_DATA_PATH = path.resolve(APP_CONFIG.DB_BACKUP.backupFilePath, `node
 export class DBBackupcService {
 
   constructor(private readonly cloudStorageService: CloudStorageService) {
-    console.log('DB Backup 开始执行定时数据备份任务！');
-    schedule.scheduleJob(UPLOAD_INTERVAL, () => {
-      this.backup().catch(() => {
-        setTimeout(this.backup, UPFAILE_TIMEOUT);
-      });
-    });
+    // console.log('DB Backup 开始执行定时数据备份任务！');
+    // schedule.scheduleJob(UPLOAD_INTERVAL, () => {
+    //   this.backup().catch(() => {
+    //     setTimeout(this.backup, UPFAILE_TIMEOUT);
+    //   });
+    // });
   }
 
   // 打包备份并上传
