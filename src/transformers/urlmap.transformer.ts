@@ -5,7 +5,7 @@
  * @author Surmon <https://github.com/yijies>
  */
 
-import * as APP_CONFIG from '@app/app.config';
+import * as APP_CONFIG from '../app.config';
 
 const TAG_PATH = 'tag';
 const CATEGORY_PATH = 'category';

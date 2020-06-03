@@ -8,7 +8,7 @@
 import { prop } from '@typegoose/typegoose';
 import { IsInt, IsDefined } from 'class-validator';
 import { Controller, Patch, Body } from '@nestjs/common';
-import { HttpProcessor } from '@app/decorators/http.decorator';
+import { HttpProcessor } from '../../decorators/http.decorator';
 import { LikeService } from './like.service';
 
 export class LikeComment {

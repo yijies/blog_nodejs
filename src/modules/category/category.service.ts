@@ -7,13 +7,13 @@
 
 import { PaginateResult, Types } from 'mongoose';
 import { Injectable } from '@nestjs/common';
-import { InjectModel } from '@app/transformers/model.transformer';
-import { getCategoryUrl } from '@app/transformers/urlmap.transformer';
-import { MongooseModel } from '@app/interfaces/mongoose.interface';
-import { EPublicState, EPublishState } from '@app/interfaces/state.interface';
-import { SyndicationService } from '@app/modules/syndication/syndication.service';
-import { SeoService } from '@app/processors/helper/helper.service.seo';
-import { Article } from '@app/modules/article/article.model';
+import { InjectModel } from '../../transformers/model.transformer';
+import { getCategoryUrl } from '../../transformers/urlmap.transformer';
+import { MongooseModel } from '../../interfaces/mongoose.interface';
+import { EPublicState, EPublishState } from '../../interfaces/state.interface';
+import { SyndicationService } from '../../modules/syndication/syndication.service';
+import { SeoService } from '../../processors/helper/helper.service.seo';
+import { Article } from '../../modules/article/article.model';
 import { Category } from './category.model';
 
 @Injectable()

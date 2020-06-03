@@ -9,8 +9,8 @@
 // import * as geoip from 'geoip-lite';
 import shell from 'shelljs';
 import { Injectable, HttpService } from '@nestjs/common';
-import { getMessageFromAxiosError } from '@app/transformers/error.transformer';
-import * as APP_CONFIG from '@app/app.config';
+import { getMessageFromAxiosError } from '../../transformers/error.transformer';
+import * as APP_CONFIG from '../../app.config';
 
 export type IP = string;
 export interface IIPDetail {

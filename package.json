@@ -1,5 +1,5 @@
 {
-  "name": "nodepress",
+  "name": "blog_nodejs",
   "version": "3.3.3",
   "description": "RESTful API service for Surmon.me blog",
   "author": {
@@ -10,12 +10,12 @@
   "private": false,
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yijies/nodepress/issues"
+    "url": "https://github.com/yijies/blog_nodejs/issues"
   },
-  "homepage": "https://github.com/yijies/nodepress#readme",
+  "homepage": "https://github.com/yijies/blog_nodejs#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yijies/nodepress.git"
+    "url": "https://github.com/yijies/blog_nodejs.git"
   },
   "scripts": {
     "prebuild": "rimraf dist",

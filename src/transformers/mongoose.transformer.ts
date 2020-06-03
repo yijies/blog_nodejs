@@ -8,7 +8,7 @@
 import _mongoose from 'mongoose';
 import _mongoosePaginate from 'mongoose-paginate';
 import _mongooseAutoIncrement from 'mongoose-auto-increment';
-import * as APP_CONFIG from '@app/app.config';
+import * as APP_CONFIG from '../app.config';
 
 // 各种 Hack
 _mongoose.set('useFindAndModify', false);

@@ -7,11 +7,11 @@
 
 import { DocumentType } from '@typegoose/typegoose';
 import { Injectable } from '@nestjs/common';
-import { Option } from '@app/modules/option/option.model';
-import { Comment } from '@app/modules/comment/comment.model';
-import { OptionService } from '@app/modules/option/option.service';
-import { ArticleService } from '@app/modules/article/article.service';
-import { CommentService } from '@app/modules/comment/comment.service';
+import { Option } from '../../modules/option/option.model';
+import { Comment } from '../../modules/comment/comment.model';
+import { OptionService } from '../../modules/option/option.service';
+import { ArticleService } from '../../modules/article/article.service';
+import { CommentService } from '../../modules/comment/comment.service';
 
 @Injectable()
 export class LikeService {

@@ -13,7 +13,7 @@ import { AuthController } from './auth.controller';
 import { AuthProvider } from './auth.model';
 import { AuthService } from './auth.service';
 import { JwtStrategy } from './jwt.strategy';
-import * as APP_CONFIG from '@app/app.config';
+import * as APP_CONFIG from '../../app.config';
 
 @Module({
   imports: [

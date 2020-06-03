@@ -7,7 +7,7 @@
 
 import { AuthGuard } from '@nestjs/passport';
 import { ExecutionContext, Injectable } from '@nestjs/common';
-import { HttpUnauthorizedError } from '@app/errors/unauthorized.error';
+import { HttpUnauthorizedError } from '../errors/unauthorized.error';
 
 /**
  * @class JwtAuthGuard

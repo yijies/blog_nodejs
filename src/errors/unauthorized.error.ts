@@ -5,9 +5,9 @@
  * @author Surmon <https://github.com/yijies>
  */
 
-import * as TEXT from '@app/constants/text.constant';
+import * as TEXT from '../constants/text.constant';
 import { UnauthorizedException } from '@nestjs/common';
-import { TMessage } from '@app/interfaces/http.interface';
+import { TMessage } from '../interfaces/http.interface';
 
 /**
  * @class HttpUnauthorizedError

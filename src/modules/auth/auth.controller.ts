@@ -6,15 +6,15 @@
  */
 
 import { Controller, Get, Put, Post, Body, UseGuards, HttpStatus } from '@nestjs/common';
-import { JwtAuthGuard } from '@app/guards/auth.guard';
-import { IPService } from '@app/processors/helper/helper.service.ip';
-import { EmailService } from '@app/processors/helper/helper.service.email';
-import { HttpProcessor } from '@app/decorators/http.decorator';
-import { QueryParams } from '@app/decorators/query-params.decorator';
+import { JwtAuthGuard } from '../../guards/auth.guard';
+import { IPService } from '../../processors/helper/helper.service.ip';
+import { EmailService } from '../../processors/helper/helper.service.email';
+import { HttpProcessor } from '../../decorators/http.decorator';
+import { QueryParams } from '../../decorators/query-params.decorator';
 import { AuthService } from './auth.service';
 import { ITokenResult } from './auth.interface';
 import { Auth, AuthLogin } from './auth.model';
-import * as APP_CONFIG from '@app/app.config';
+import * as APP_CONFIG from '../../app.config';
 
 @Controller('auth')
 export class AuthController {

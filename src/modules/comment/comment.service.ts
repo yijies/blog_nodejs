@@ -6,21 +6,21 @@
  */
 
 import lodash from 'lodash';
-import { isDevMode } from '@app/app.environment';
+import { isDevMode } from '../../app.environment';
 import { PaginateResult, Types } from 'mongoose';
 import { Injectable } from '@nestjs/common';
-import { InjectModel } from '@app/transformers/model.transformer';
-import { getGuestbookPageUrl, getArticleUrl } from '@app/transformers/urlmap.transformer';
-import { parseMarkdownToHtml } from '@app/transformers/markdown.transformer';
-import { MongooseModel } from '@app/interfaces/mongoose.interface';
-import { ECommentPostType, ECommentState } from '@app/interfaces/state.interface';
-import { IPService } from '@app/processors/helper/helper.service.ip';
-import { EmailService } from '@app/processors/helper/helper.service.email';
-import { AkismetService, EAkismetActionType } from '@app/processors/helper/helper.service.akismet';
-import { Option, Blacklist } from '@app/modules/option/option.model';
-import { Article } from '@app/modules/article/article.model';
+import { InjectModel } from '../../transformers/model.transformer';
+import { getGuestbookPageUrl, getArticleUrl } from '../../transformers/urlmap.transformer';
+import { parseMarkdownToHtml } from '../../transformers/markdown.transformer';
+import { MongooseModel } from '../../interfaces/mongoose.interface';
+import { ECommentPostType, ECommentState } from '../../interfaces/state.interface';
+import { IPService } from '../../processors/helper/helper.service.ip';
+import { EmailService } from '../../processors/helper/helper.service.email';
+import { AkismetService, EAkismetActionType } from '../../processors/helper/helper.service.akismet';
+import { Option, Blacklist } from '../../modules/option/option.model';
+import { Article } from '../../modules/article/article.model';
 import { Comment, CreateCommentBase, PatchComments } from './comment.model';
-import * as APP_CONFIG from '@app/app.config';
+import * as APP_CONFIG from '../../app.config';
 
 @Injectable()
 export class CommentService {

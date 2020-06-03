@@ -6,9 +6,9 @@
  */
 
 import { Module, HttpModule } from '@nestjs/common';
-import { TagProvider } from '@app/modules/tag/tag.model';
-import { ArticleProvider } from '@app/modules/article/article.model';
-import { CommentProvider } from '@app/modules/comment/comment.model';
+import { TagProvider } from '../../modules/tag/tag.model';
+import { ArticleProvider } from '../../modules/article/article.model';
+import { CommentProvider } from '../../modules/comment/comment.model';
 import { ExpansionController } from './expansion.controller';
 import { GithubService } from './expansion.service.github';
 import { StatisticService } from './expansion.service.statistic';

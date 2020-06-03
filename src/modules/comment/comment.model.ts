@@ -8,10 +8,10 @@
 import { Types } from 'mongoose';
 import { prop, arrayProp, plugin, pre, index, defaultClasses } from '@typegoose/typegoose';
 import { IsString, MaxLength, IsIn, IsIP, IsUrl, IsEmail, IsInt, IsBoolean, IsNotEmpty, IsArray, ArrayNotEmpty, ArrayUnique } from 'class-validator';
-import { mongoosePaginate, mongooseAutoIncrement } from '@app/transformers/mongoose.transformer';
-import { getProviderByTypegooseClass } from '@app/transformers/model.transformer';
-import { ECommentParentType, ECommentState } from '@app/interfaces/state.interface';
-import { Extend } from '@app/models/extend.model';
+import { mongoosePaginate, mongooseAutoIncrement } from '../../transformers/mongoose.transformer';
+import { getProviderByTypegooseClass } from '../../transformers/model.transformer';
+import { ECommentParentType, ECommentState } from '../../interfaces/state.interface';
+import { Extend } from '../../models/extend.model';
 
 // 评论作者
 export class Author {

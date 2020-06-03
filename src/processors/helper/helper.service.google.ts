@@ -8,8 +8,8 @@
 import { google } from 'googleapis';
 import { Credentials, JWT } from 'google-auth-library';
 import { Injectable } from '@nestjs/common';
-import { getMessageFromNormalError } from '@app/transformers/error.transformer';
-import * as APP_CONFIG from '@app/app.config';
+import { getMessageFromNormalError } from '../../transformers/error.transformer';
+import * as APP_CONFIG from '../../app.config';
 
 @Injectable()
 export class GoogleService {

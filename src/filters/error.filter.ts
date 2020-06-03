@@ -6,8 +6,8 @@
  */
 
 import lodash from 'lodash';
-import { isDevMode } from '@app/app.environment';
-import { EHttpStatus, THttpErrorResponse, TExceptionOption, TMessage } from '@app/interfaces/http.interface';
+import { isDevMode } from '../app.environment';
+import { EHttpStatus, THttpErrorResponse, TExceptionOption, TMessage } from '../interfaces/http.interface';
 import { ExceptionFilter, Catch, HttpException, ArgumentsHost, HttpStatus } from '@nestjs/common';
 
 /**

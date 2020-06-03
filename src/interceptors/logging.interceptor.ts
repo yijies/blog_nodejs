@@ -8,7 +8,7 @@
 import { Observable } from 'rxjs';
 import { tap } from 'rxjs/operators';
 import { Injectable, NestInterceptor, CallHandler, ExecutionContext } from '@nestjs/common';
-import { isDevMode } from '@app/app.environment';
+import { isDevMode } from '../app.environment';
 
 @Injectable()
 export class LoggingInterceptor implements NestInterceptor {

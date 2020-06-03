@@ -9,8 +9,8 @@ import lodash from 'lodash';
 import redisStore from 'cache-manager-redis-store';
 import { ClientOpts, RetryStrategyOptions } from 'redis';
 import { CacheModuleOptions, CacheOptionsFactory, Injectable } from '@nestjs/common';
-import { EmailService } from '@app/processors/helper/helper.service.email';
-import * as APP_CONFIG from '@app/app.config';
+import { EmailService } from '../../processors/helper/helper.service.email';
+import * as APP_CONFIG from '../../app.config';
 
 @Injectable()
 export class CacheConfigService implements CacheOptionsFactory {

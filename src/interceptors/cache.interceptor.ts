@@ -9,10 +9,10 @@ import { tap } from 'rxjs/operators';
 import { Observable, of } from 'rxjs';
 import { Reflector } from '@nestjs/core';
 import { HttpAdapterHost, NestInterceptor, ExecutionContext, CallHandler, Inject,  Injectable, RequestMethod } from '@nestjs/common';
-import { CacheService } from '@app/processors/cache/cache.service';
-import * as SYSYTEM from '@app/constants/system.constant';
-import * as META from '@app/constants/meta.constant';
-import * as APP_CONFIG from '@app/app.config';
+import { CacheService } from '../processors/cache/cache.service';
+import * as SYSYTEM from '../constants/system.constant';
+import * as META from '../constants/meta.constant';
+import * as APP_CONFIG from '../app.config';
 
 /**
  * @class HttpCacheInterceptor

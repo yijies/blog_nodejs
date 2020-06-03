@@ -8,13 +8,13 @@
 import lodash from 'lodash';
 import { PaginateResult } from 'mongoose';
 import { Controller, Get, Put, Post, Patch, Delete, Body, UseGuards, HttpStatus } from '@nestjs/common';
-import { QueryParams, EQueryParamsField as QueryField } from '@app/decorators/query-params.decorator';
-import { HttpProcessor } from '@app/decorators/http.decorator';
-import { JwtAuthGuard } from '@app/guards/auth.guard';
-import { HumanizedJwtAuthGuard } from '@app/guards/humanized-auth.guard';
-import { ESortType } from '@app/interfaces/state.interface';
-import { TagService } from '@app/modules/tag/tag.service';
-import { CategoryService } from '@app/modules/category/category.service';
+import { QueryParams, EQueryParamsField as QueryField } from '../../decorators/query-params.decorator';
+import { HttpProcessor } from '../../decorators/http.decorator';
+import { JwtAuthGuard } from '../../guards/auth.guard';
+import { HumanizedJwtAuthGuard } from '../../guards/humanized-auth.guard';
+import { ESortType } from '../../interfaces/state.interface';
+import { TagService } from '../../modules/tag/tag.service';
+import { CategoryService } from '../../modules/category/category.service';
 import { Article, DelArticles, PatchArticles } from './article.model';
 import { ArticleService } from './article.service';
 

@@ -10,16 +10,16 @@ import path from 'path';
 import RSS from 'rss';
 import { Sitemap, EnumChangefreq } from 'sitemap';
 import { Injectable } from '@nestjs/common';
-import { InjectModel } from '@app/transformers/model.transformer';
-import { CacheService, ICacheIoResult } from '@app/processors/cache/cache.service';
-import { ESortType, EPublishState, EPublicState } from '@app/interfaces/state.interface';
-import { MongooseModel } from '@app/interfaces/mongoose.interface';
-import { Category } from '@app/modules/category/category.model';
-import { Article } from '@app/modules/article/article.model';
-import { Tag } from '@app/modules/tag/tag.model';
-import * as APP_CONFIG from '@app/app.config';
-import * as CACHE_KEY from '@app/constants/cache.constant';
-import * as urlMap from '@app/transformers/urlmap.transformer';
+import { InjectModel } from '../../transformers/model.transformer';
+import { CacheService, ICacheIoResult } from '../../processors/cache/cache.service';
+import { ESortType, EPublishState, EPublicState } from '../../interfaces/state.interface';
+import { MongooseModel } from '../../interfaces/mongoose.interface';
+import { Category } from '../../modules/category/category.model';
+import { Article } from '../../modules/article/article.model';
+import { Tag } from '../../modules/tag/tag.model';
+import * as APP_CONFIG from '../../app.config';
+import * as CACHE_KEY from '../../constants/cache.constant';
+import * as urlMap from '../../transformers/urlmap.transformer';
 
 @Injectable()
 export class SyndicationService {

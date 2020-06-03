@@ -10,10 +10,10 @@ import { map } from 'rxjs/operators';
 import { PaginateResult } from 'mongoose';
 import { Reflector } from '@nestjs/core';
 import { Injectable, NestInterceptor, CallHandler, ExecutionContext } from '@nestjs/common';
-import { THttpSuccessResponse, IHttpResultPaginate, EHttpStatus } from '@app/interfaces/http.interface';
-import { TMessage } from '@app/interfaces/http.interface';
-import * as META from '@app/constants/meta.constant';
-import * as TEXT from '@app/constants/text.constant';
+import { THttpSuccessResponse, IHttpResultPaginate, EHttpStatus } from '../interfaces/http.interface';
+import { TMessage } from '../interfaces/http.interface';
+import * as META from '../constants/meta.constant';
+import * as TEXT from '../constants/text.constant';
 
 // 转换为标准的数据结构
 export function transformDataToPaginate<T>(data: PaginateResult<T>, request?: any): IHttpResultPaginate<T[]> {

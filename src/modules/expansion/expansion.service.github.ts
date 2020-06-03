@@ -6,10 +6,10 @@
  */
 
 import { Injectable, HttpService } from '@nestjs/common';
-import { CacheService, ICacheIoResult } from '@app/processors/cache/cache.service';
-import { getMessageFromAxiosError } from '@app/transformers/error.transformer';
-import * as CACHE_KEY from '@app/constants/cache.constant';
-import * as APP_CONFIG from '@app/app.config';
+import { CacheService, ICacheIoResult } from '../../processors/cache/cache.service';
+import { getMessageFromAxiosError } from '../../transformers/error.transformer';
+import * as CACHE_KEY from '../../constants/cache.constant';
+import * as APP_CONFIG from '../../app.config';
 
 export interface IGithubRepositorie {
   html_url: string;

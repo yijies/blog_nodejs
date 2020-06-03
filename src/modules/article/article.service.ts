@@ -9,16 +9,16 @@ import lodash from 'lodash';
 import { DocumentType } from '@typegoose/typegoose';
 import { PaginateResult, Types } from 'mongoose';
 import { Injectable } from '@nestjs/common';
-import { InjectModel } from '@app/transformers/model.transformer';
-import { getArticleUrl } from '@app/transformers/urlmap.transformer';
-import { SeoService } from '@app/processors/helper/helper.service.seo';
-import { CacheService, TCacheIntervalResult } from '@app/processors/cache/cache.service';
-import { SyndicationService } from '@app/modules/syndication/syndication.service';
-import { TagService } from '@app/modules/tag/tag.service';
-import { MongooseModel } from '@app/interfaces/mongoose.interface';
-import { ESortType, EPublicState, EPublishState } from '@app/interfaces/state.interface';
+import { InjectModel } from '../../transformers/model.transformer';
+import { getArticleUrl } from '../../transformers/urlmap.transformer';
+import { SeoService } from '../../processors/helper/helper.service.seo';
+import { CacheService, TCacheIntervalResult } from '../../processors/cache/cache.service';
+import { SyndicationService } from '../../modules/syndication/syndication.service';
+import { TagService } from '../../modules/tag/tag.service';
+import { MongooseModel } from '../../interfaces/mongoose.interface';
+import { ESortType, EPublicState, EPublishState } from '../../interfaces/state.interface';
 import { Article, getDefaultMeta } from './article.model';
-import * as CACHE_KEY from '@app/constants/cache.constant';
+import * as CACHE_KEY from '../../constants/cache.constant';
 
 export const COMMON_USER_QUERY_PARAMS = Object.freeze({
   state: EPublishState.Published,

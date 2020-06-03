@@ -7,8 +7,8 @@
 
 import akismet from 'akismet-api';
 import { Injectable } from '@nestjs/common';
-import { getMessageFromNormalError } from '@app/transformers/error.transformer';
-import * as APP_CONFIG from '@app/app.config';
+import { getMessageFromNormalError } from '../../transformers/error.transformer';
+import * as APP_CONFIG from '../../app.config';
 
 // 验证器支持的操作行为
 export enum EAkismetActionType {

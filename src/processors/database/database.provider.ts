@@ -5,10 +5,10 @@
  * @author Surmon <https://github.com/yijies>
  */
 
-import * as APP_CONFIG from '@app/app.config';
-import { mongoose } from '@app/transformers/mongoose.transformer';
-import { EmailService } from '@app/processors/helper/helper.service.email';
-import { DB_CONNECTION_TOKEN } from '@app/constants/system.constant';
+import * as APP_CONFIG from '../../app.config';
+import { mongoose } from '../../transformers/mongoose.transformer';
+import { EmailService } from '../../processors/helper/helper.service.email';
+import { DB_CONNECTION_TOKEN } from '../../constants/system.constant';
 
 export const databaseProvider = {
   inject: [EmailService],

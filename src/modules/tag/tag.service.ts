@@ -5,17 +5,17 @@
  * @author Surmon <https://github.com/yijies>
  */
 
-import * as CACHE_KEY from '@app/constants/cache.constant';
+import * as CACHE_KEY from '../../constants/cache.constant';
 import { PaginateResult, Types } from 'mongoose';
 import { Injectable } from '@nestjs/common';
-import { InjectModel } from '@app/transformers/model.transformer';
-import { getTagUrl } from '@app/transformers/urlmap.transformer';
-import { CacheService, ICacheIoResult } from '@app/processors/cache/cache.service';
-import { SeoService } from '@app/processors/helper/helper.service.seo';
-import { MongooseModel } from '@app/interfaces/mongoose.interface';
-import { ESortType, EPublicState, EPublishState } from '@app/interfaces/state.interface';
-import { SyndicationService } from '@app/modules/syndication/syndication.service';
-import { Article } from '@app/modules/article/article.model';
+import { InjectModel } from '../../transformers/model.transformer';
+import { getTagUrl } from '../../transformers/urlmap.transformer';
+import { CacheService, ICacheIoResult } from '../../processors/cache/cache.service';
+import { SeoService } from '../../processors/helper/helper.service.seo';
+import { MongooseModel } from '../../interfaces/mongoose.interface';
+import { ESortType, EPublicState, EPublishState } from '../../interfaces/state.interface';
+import { SyndicationService } from '../../modules/syndication/syndication.service';
+import { Article } from '../../modules/article/article.model';
 import { Tag } from './tag.model';
 
 @Injectable()

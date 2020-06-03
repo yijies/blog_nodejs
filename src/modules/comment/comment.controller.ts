@@ -8,11 +8,11 @@
 import lodash from 'lodash';
 import { PaginateResult } from 'mongoose';
 import { Controller, Get, Put, Post, Patch, Delete, Body, UseGuards } from '@nestjs/common';
-import { JwtAuthGuard } from '@app/guards/auth.guard';
-import { HumanizedJwtAuthGuard } from '@app/guards/humanized-auth.guard';
-import { HttpProcessor } from '@app/decorators/http.decorator';
-import { QueryParams, EQueryParamsField } from '@app/decorators/query-params.decorator';
-import { ESortType } from '@app/interfaces/state.interface';
+import { JwtAuthGuard } from '../../guards/auth.guard';
+import { HumanizedJwtAuthGuard } from '../../guards/humanized-auth.guard';
+import { HttpProcessor } from '../../decorators/http.decorator';
+import { QueryParams, EQueryParamsField } from '../../decorators/query-params.decorator';
+import { ESortType } from '../../interfaces/state.interface';
 import { Comment, CreateCommentBase, DelComments, PatchComments } from './comment.model';
 import { CommentService } from './comment.service';
 

@@ -7,10 +7,10 @@
 
 import { Request, Response } from 'express';
 import { Injectable, NestMiddleware, HttpStatus } from '@nestjs/common';
-import { THttpErrorResponse, EHttpStatus } from '@app/interfaces/http.interface';
-import { isProdMode } from '@app/app.environment';
-import { CROSS_DOMAIN } from '@app/app.config';
-import * as TEXT from '@app/constants/text.constant';
+import { THttpErrorResponse, EHttpStatus } from '../interfaces/http.interface';
+import { isProdMode } from '../app.environment';
+import { CROSS_DOMAIN } from '../app.config';
+import * as TEXT from '../constants/text.constant';
 
 /**
  * @class OriginMiddleware

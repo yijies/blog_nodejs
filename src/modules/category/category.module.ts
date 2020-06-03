@@ -6,8 +6,8 @@
  */
 
 import { Module } from '@nestjs/common';
-import { SyndicationModule } from '@app/modules/syndication/syndication.module';
-import { ArticleProvider } from '@app/modules/article/article.model';
+import { SyndicationModule } from '../../modules/syndication/syndication.module';
+import { ArticleProvider } from '../../modules/article/article.model';
 import { CategoryController } from './category.controller';
 import { CategoryProvider } from './category.model';
 import { CategoryService } from './category.service';

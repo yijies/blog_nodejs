@@ -6,8 +6,8 @@
  */
 
 import { Controller, Get, Put, Body, UseGuards } from '@nestjs/common';
-import { HttpProcessor } from '@app/decorators/http.decorator';
-import { JwtAuthGuard } from '@app/guards/auth.guard';
+import { HttpProcessor } from '../../decorators/http.decorator';
+import { JwtAuthGuard } from '../../guards/auth.guard';
 import { OptionService } from './option.service';
 import { Option } from './option.model';
 

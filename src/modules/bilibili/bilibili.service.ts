@@ -7,9 +7,9 @@
 
 import lodash from 'lodash';
 import { Injectable, HttpService } from '@nestjs/common';
-import { CacheService, ICacheIoResult } from '@app/processors/cache/cache.service';
-import * as APP_CONFIG from '@app/app.config';
-import * as CACHE_KEY from '@app/constants/cache.constant';
+import { CacheService, ICacheIoResult } from '../../processors/cache/cache.service';
+import * as APP_CONFIG from '../../app.config';
+import * as CACHE_KEY from '../../constants/cache.constant';
 
 // B 站视频列表格式
 export interface IBilibiliVideoList {

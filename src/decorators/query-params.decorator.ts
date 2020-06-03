@@ -8,9 +8,9 @@
 import lodash from 'lodash';
 import { Types } from 'mongoose';
 import { createParamDecorator } from '@nestjs/common';
-import { HttpForbiddenError } from '@app/errors/forbidden.error';
-import { HttpBadRequestError } from '@app/errors/bad-request.error';
-import { EPublishState, EPublicState, EOriginState, ECommentState, ESortType } from '@app/interfaces/state.interface';
+import { HttpForbiddenError } from '../errors/forbidden.error';
+import { HttpBadRequestError } from '../errors/bad-request.error';
+import { EPublishState, EPublicState, EOriginState, ECommentState, ESortType } from '../interfaces/state.interface';
 
 // 预置转换器可选字段
 export enum EQueryParamsField {

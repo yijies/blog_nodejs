@@ -7,7 +7,7 @@
 
 import OSS from 'ali-oss';
 import { Injectable } from '@nestjs/common';
-import * as APP_CONFIG from '@app/app.config';
+import * as APP_CONFIG from '../../app.config';
 
 const STS = (OSS as any).STS;
 

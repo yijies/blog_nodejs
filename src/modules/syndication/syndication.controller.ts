@@ -6,8 +6,8 @@
  */
 
 import { UseGuards, Response, Controller, Get, Patch } from '@nestjs/common';
-import { JwtAuthGuard } from '@app/guards/auth.guard';
-import { HttpProcessor } from '@app/decorators/http.decorator';
+import { JwtAuthGuard } from '../../guards/auth.guard';
+import { HttpProcessor } from '../../decorators/http.decorator';
 import { SyndicationService } from './syndication.service';
 
 @Controller('syndication')

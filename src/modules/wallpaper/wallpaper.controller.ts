@@ -6,9 +6,9 @@
  */
 
 import { Controller, Get } from '@nestjs/common';
-import { HttpProcessor } from '@app/decorators/http.decorator';
+import { HttpProcessor } from '../../decorators/http.decorator';
 import { WallpaperService } from './wallpaper.service';
-import { QueryParams } from '@app/decorators/query-params.decorator';
+import { QueryParams } from '../../decorators/query-params.decorator';
 
 @Controller('wallpaper')
 export class WallpaperController {

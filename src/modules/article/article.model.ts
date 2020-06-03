@@ -8,12 +8,12 @@
 import { Types } from 'mongoose';
 import { prop, arrayProp, plugin, pre, Ref, defaultClasses, modelOptions } from '@typegoose/typegoose';
 import { IsString, IsNotEmpty, IsArray, IsDefined, IsIn, IsInt, ArrayNotEmpty, ArrayUnique } from 'class-validator';
-import { mongoosePaginate, mongooseAutoIncrement } from '@app/transformers/mongoose.transformer';
-import { getProviderByTypegooseClass } from '@app/transformers/model.transformer';
-import { EPublishState, EPublicState, EOriginState } from '@app/interfaces/state.interface';
-import { Category } from '@app/modules/category/category.model';
-import { Extend } from '@app/models/extend.model';
-import { Tag } from '@app/modules/tag/tag.model';
+import { mongoosePaginate, mongooseAutoIncrement } from '../../transformers/mongoose.transformer';
+import { getProviderByTypegooseClass } from '../../transformers/model.transformer';
+import { EPublishState, EPublicState, EOriginState } from '../../interfaces/state.interface';
+import { Category } from '../../modules/category/category.model';
+import { Extend } from '../../models/extend.model';
+import { Tag } from '../../modules/tag/tag.model';
 
 export function getDefaultMeta(): Meta {
   return {

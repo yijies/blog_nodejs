@@ -9,18 +9,20 @@ import helmet from 'helmet';
 import bodyParser from 'body-parser';
 import compression from 'compression';
 import rateLimit from 'express-rate-limit';
-import { AppModule } from '@app/app.module';
+import { AppModule } from './app.module';
+
 import { NestFactory, Reflector } from '@nestjs/core';
-import { ValidationPipe } from '@app/pipes/validation.pipe';
-import { HttpExceptionFilter } from '@app/filters/error.filter';
-import { TransformInterceptor } from '@app/interceptors/transform.interceptor';
-import { LoggingInterceptor } from '@app/interceptors/logging.interceptor';
-import { ErrorInterceptor } from '@app/interceptors/error.interceptor';
-import { environment, isProdMode, isDevMode } from '@app/app.environment';
-import * as APP_CONFIG from '@app/app.config';
+import { ValidationPipe } from './pipes/validation.pipe';
+import { HttpExceptionFilter } from './filters/error.filter';
+import { TransformInterceptor } from './interceptors/transform.interceptor';
+import { LoggingInterceptor } from './interceptors/logging.interceptor';
+import { ErrorInterceptor } from './interceptors/error.interceptor';
+import { environment, isProdMode, isDevMode } from './app.environment';
+import * as APP_CONFIG from './app.config';
 
 // 解决 Nodejs 环境中请求 HTTPS 的证书授信问题
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+
 
 // 替换 console 为更统一友好的
 const { log, warn, info } = console;

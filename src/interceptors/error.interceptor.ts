@@ -9,10 +9,10 @@ import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 import { Reflector } from '@nestjs/core';
 import { Injectable, NestInterceptor, CallHandler, ExecutionContext, HttpStatus } from '@nestjs/common';
-import { TMessage } from '@app/interfaces/http.interface';
-import { CustomError } from '@app/errors/custom.error';
-import * as META from '@app/constants/meta.constant';
-import * as TEXT from '@app/constants/text.constant';
+import { TMessage } from '../interfaces/http.interface';
+import { CustomError } from '../errors/custom.error';
+import * as META from '../constants/meta.constant';
+import * as TEXT from '../constants/text.constant';
 
 /**
  * @class ErrorInterceptor

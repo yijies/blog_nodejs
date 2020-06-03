@@ -6,8 +6,8 @@
  */
 
 import { Injectable } from '@nestjs/common';
-import { InjectModel } from '@app/transformers/model.transformer';
-import { MongooseModel } from '@app/interfaces/mongoose.interface';
+import { InjectModel } from '../../transformers/model.transformer';
+import { MongooseModel } from '../../interfaces/mongoose.interface';
 import { Option } from './option.model';
 
 @Injectable()

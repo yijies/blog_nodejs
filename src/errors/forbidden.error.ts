@@ -5,7 +5,7 @@
  * @author Surmon <https://github.com/yijies>
  */
 
-import * as TEXT from '@app/constants/text.constant';
+import * as TEXT from '../constants/text.constant';
 import { HttpException, HttpStatus } from '@nestjs/common';
 
 /**

@@ -6,9 +6,9 @@
  */
 
 import { Module } from '@nestjs/common';
-import { SyndicationModule } from '@app/modules/syndication/syndication.module';
-import { CategoryModule } from '@app/modules/category/category.module';
-import { TagModule } from '@app/modules/tag/tag.module';
+import { SyndicationModule } from '../../modules/syndication/syndication.module';
+import { CategoryModule } from '../../modules/category/category.module';
+import { TagModule } from '../../modules/tag/tag.module';
 import { ArticleController } from './article.controller';
 import { ArticleProvider } from './article.model';
 import { ArticleService } from './article.service';

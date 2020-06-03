@@ -8,8 +8,8 @@
 import lodash from 'lodash';
 import NeteaseMusic from 'simple-netease-cloud-music';
 import { Injectable } from '@nestjs/common';
-import { CacheService, ICacheIoResult } from '@app/processors/cache/cache.service';
-import * as CACHE_KEY from '@app/constants/cache.constant';
+import { CacheService, ICacheIoResult } from '../../processors/cache/cache.service';
+import * as CACHE_KEY from '../../constants/cache.constant';
 
 @Injectable()
 export class MusicService {

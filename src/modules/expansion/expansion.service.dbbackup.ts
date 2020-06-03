@@ -11,8 +11,8 @@ import shell from 'shelljs';
 import moment from 'moment';
 import schedule from 'node-schedule';
 import { Injectable } from '@nestjs/common';
-import { CloudStorageService } from '@app/processors/helper/helper.service.cs';
-import * as APP_CONFIG from '@app/app.config';
+import { CloudStorageService } from '../../processors/helper/helper.service.cs';
+import * as APP_CONFIG from '../../app.config';
 
 // Configs
 const UPFAILE_TIMEOUT = 1000 * 60 * 5;

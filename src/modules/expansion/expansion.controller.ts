@@ -8,10 +8,10 @@
 
 import { Credentials } from 'google-auth-library';
 import { Controller, Get, Patch, UseGuards } from '@nestjs/common';
-import { JwtAuthGuard } from '@app/guards/auth.guard';
-import { HttpProcessor } from '@app/decorators/http.decorator';
-import { CloudStorageService, IUpToken } from '@app/processors/helper/helper.service.cs';
-import { GoogleService } from '@app/processors/helper/helper.service.google';
+import { JwtAuthGuard } from '../../guards/auth.guard';
+import { HttpProcessor } from '../../decorators/http.decorator';
+import { CloudStorageService, IUpToken } from '../../processors/helper/helper.service.cs';
+import { GoogleService } from '../../processors/helper/helper.service.google';
 import { GithubService, IGithubRepositorie } from './expansion.service.github';
 import { StatisticService, ITodayStatistic } from './expansion.service.statistic';
 import { DBBackupcService } from './expansion.service.dbbackup';

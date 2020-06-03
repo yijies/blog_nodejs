@@ -7,8 +7,8 @@
 
 import nodemailer from 'nodemailer';
 import { Injectable } from '@nestjs/common';
-import { getMessageFromNormalError } from '@app/transformers/error.transformer';
-import * as APP_CONFIG from '@app/app.config';
+import { getMessageFromNormalError } from '../../transformers/error.transformer';
+import * as APP_CONFIG from '../../app.config';
 
 // 邮件格式
 export interface IEmailOptions {
